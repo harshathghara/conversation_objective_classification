@@ -1,0 +1,30 @@
+# Ignore virtual environment
+transcripts_venv/
+
+# Ignore data files (optional, if they are large or confidential)
+data/*.csv
+data/*.txt
+
+# Ignore trained models (optional, if they are large and can be regenerated)
+models/*.pkl
+
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+*.log
+
+# Ignore IDE and editor-specific files
+.vscode/
+*.swp
+*.swo
