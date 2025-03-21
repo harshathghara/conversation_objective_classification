@@ -1,12 +1,6 @@
 # Ignore virtual environment
 transcripts_venv/
 
-# Ignore data files (optional, if they are large or confidential)
-data/*.csv
-data/*.txt
-
-# Ignore trained models (optional, if they are large and can be regenerated)
-models/*.pkl
 
 # Ignore cache files
 __pycache__/
